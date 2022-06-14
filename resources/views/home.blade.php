@@ -11,6 +11,7 @@
             @foreach ($travels as $travel)
 
             <div class="col card">
+                <img class="img-fluid" src="{{ $travel->image }}" alt="">
                 <h1>{{ $travel->commercial_name }}</h1>
                 <p>{{ $travel->description }}</p>
                 <h5>Città di destinazione: <br>{{ $travel->city }}</h5>
